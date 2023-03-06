@@ -11,8 +11,10 @@ export default function ButtonMUI() {
   return (
     <>
       <Navbar />
+
+
       <Stack p={{ xs: "15px", sm: "25px", md: "40px", lg: "60px " }}>
-        <h2 className="template-header-title">Resume Builder</h2>
+        <h2 className="template-header-title"></h2>
         <Stack
           className="midContainer"
           direction={{
@@ -38,20 +40,32 @@ export default function ButtonMUI() {
               },
               textAlign: "justify"
             }}>
-           It is an application that simplifies the task of creating a resume for individuals. 
-            The system is flexible to be used and reduces the need of thinking and designing an appropriate resume according 
-            to qualifications. The system is developed to provide an easy means for creating a professional looking resume.
-             Resume Builder offers free, HR-approved resume templates to help you
-            create a professional resume in minutes. Choose from some of the selected templates that can land you to your dream job.
-            You can also download resume as a PDF.
+
+The online resume builder getting folks hired by BBC, Google, Apple, Tesla, and Airbnb.
+          You can pick one of our handcrafted resume templates above.
+           You can start building your resume in Minutes ,
+           using predefined sections approved by recruiters worldwide. 
+           You can also customize it to your own needs and personality and hit 'Download'.
+            It's THAT easy to use, even if you've never made a resume in your life before!
+          
+            <li>Build Your Resume Fast and Easy with Following steps </li>
+            
+            <ol>1. Select Templete </ol>
+            <ol>2. Fill deatils </ol>
+            <ol>3. Your Resume is ready to download   </ol>
+
+
+
           </Typography>
           <Stack>
             <img
-              src="https://media.istockphoto.com/vectors/people-vector-illustration-flat-cartoon-character-landing-page-vector-id1137470880?k=20&m=1137470880&s=612x612&w=0&h=G12BhLwmpqRaSnBY0S9SiJ1Ia1Ao5PjrLX1Y98KZ1vE="
+              src="https://resumion.com/static/media/builder.a54b992d.svg"
               alt="img"
-            />
+            />            
           </Stack>
+         
         </Stack>
+
         <Box mt="25px">
           <Typography
             sx={{
@@ -64,17 +78,20 @@ export default function ButtonMUI() {
               fontWeight: "400",
               color: "dark",
             }}>
-            Share with your friends
+           Share with your Friends and Family 
           </Typography>
           <Box className="icons">
-            <LinkedInIcon
-              sx={{ fontSize: "40px", paddingLeft: "15px" }}
-              color="primary"
-            />
+          
             <FacebookOutlinedIcon
               sx={{ fontSize: "40px", paddingLeft: "15px" }}
               color="primary"
             />
+
+<LinkedInIcon
+              sx={{ fontSize: "40px", paddingLeft: "15px" }}
+              color="primary"
+            />
+
             <WhatsAppIcon
               sx={{ fontSize: "40px", paddingLeft: "15px" }}
               color="success"
@@ -89,7 +106,34 @@ export default function ButtonMUI() {
             />
           </Box>
         </Box>
+
+     
       </Stack>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+      
+
+
+      
     </>
   );
 }

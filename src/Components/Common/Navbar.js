@@ -95,7 +95,14 @@ function Navbar(props) {
                 }}>
                 <NavLink to="/" className="homeIcon">
                   {" "}
-                <h5 className="vcenter"> Resume Builder</h5>
+            
+                <img
+                    src="https://www.almabetter.com/_next/image?url=https%3A%2F%2Falmablog-media.s3.ap-south-1.amazonaws.com%2Flogo1_edfc81b31b.png&w=256&q=75"
+                    height="35px"
+                    alt="Alma Bette logo"
+                  />
+
+
                 </NavLink>
               </Typography>
               <Box sx={{ display: { xs: "none", sm: "block" } }}>
